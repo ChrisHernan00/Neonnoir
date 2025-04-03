@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Noir</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="city-bg"></div>
+
+    <header>
+        <h1 class="glitch">NEON NOIR</h1>
+        <p>Explore the cyberpunk city. Click on districts to uncover secrets.</p>
+    </header>
+
+    <main>
+        <div class="districts">
+            <div class="district" id="night-market">Night Market</div>
+            <div class="district" id="corporate-tower">Corporate Tower</div>
+            <div class="district" id="underground">Underground Club</div>
+        </div>
+    </main>
+
+    <div id="audio-player">
+        <p>Playing: <span id="track-title">Cyber Night Drive</span></p>
+        <audio id="music" controls>
+            <source src="music/synthwave.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
